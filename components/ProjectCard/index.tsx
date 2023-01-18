@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <div onClick={()=>{
-            window.open(location.host + '/piano-with-react')
+            window.open('https://' + location.host + '/piano-with-react')
         }} className={styles.project_card_wrapper}>
             <h1>
                 piano-with-react
