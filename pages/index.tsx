@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
+import ProjectCard from '@/components/ProjectCard'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,7 +19,7 @@ export default function Home() {
        
         <img src="/blue-jay.png" alt="" />
        
-
+        <ProjectCard/>
     
       </main>
     </>
